@@ -11,10 +11,10 @@ The workflow should be easy to understand and navigate.
 The app should be user-friendly and have a high level of user empathy.
 The app should be innovative and have standout features.
 
-2.Problem statement:
+2. Problem statement:
 The problem that Travel Planner aims to solve is the difficulty in planning travel routes, especially in unfamiliar locations. The current solution is to rely on travel guides or online resources, which can be time-consuming and not always reliable. This app aims to provide a visual and interactive solution to help users plan their travel routes more efficiently and accurately. This matters because planning a travel route can greatly affect the quality of a trip, and having a reliable and user-friendly tool can enhance the overall travel experience.
 
-3.Proposals:
+3. Proposals:
 High-level design:
 Component diagram:
 Front-end: React
@@ -56,7 +56,7 @@ User selects points of interest and adds them to the map
 App suggests a route based on the order of the pins
 User adjusts the route by rearranging the order of the pins
 
-4.Decision matrix:
+4. Decision matrix:
 User experience and usability (most important)
 Accuracy and reliability of the suggested route
 App performance and responsiveness
