@@ -20,19 +20,16 @@ The problem that Travel Planner aims to solve is the difficulty in planning trav
   Front-end: React
   Back-end: Spring Boot
   Database: MySQL
-
   Sequence diagram:
   User searches for points of interest in the database
   User selects points of interest and adds them to the map as pins
   App suggests a route based on the order of the pins
   User can adjust the route by rearranging the order of the pins
-  
   Data flow diagram:
   User input (searched points of interest)
   Database search
   Map overlay
   Route suggestion
-  
   Low-level design:
   Class diagram:
   User class
@@ -40,7 +37,6 @@ The problem that Travel Planner aims to solve is the difficulty in planning trav
   Map class
   Route class
   Database class
-  
   Decision flow diagram:
   User inputs search query
   App searches the database for relevant points of interest
@@ -48,7 +44,6 @@ The problem that Travel Planner aims to solve is the difficulty in planning trav
   User selects points of interest and adds them to the map
   App suggests a route based on the order of the pins
   User can adjust the route by rearranging the order of the pins
-  
   Sequence diagram:
   User searches for points of interest in the database
   App searches the database and returns results
